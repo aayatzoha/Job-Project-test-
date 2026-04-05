@@ -1,0 +1,52 @@
+%PDF-1.4
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Kids [3 0 R] /Count 1 >> endobj
+3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >> endobj
+4 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+5 0 obj << /Length 405 >> stream
+BT
+/F1 12 Tf
+18 TL
+1 0 0 1 50 792 Tm
+(LAB REPORT) Tj
+T*
+(============) Tj
+T*
+() Tj
+T*
+(Patient: user 1) Tj
+T*
+(Health ID: CIT2025000002) Tj
+T*
+(Doctor: Dr. Doctor 1) Tj
+T*
+(Report Date: November 20, 2025) Tj
+T*
+(Test Name: Blood Pressure) Tj
+T*
+(Lab Name: shena Dialogisis) Tj
+T*
+(Technician: Ram) Tj
+T*
+() Tj
+T*
+(Notes: test the report) Tj
+T*
+() Tj
+T*
+(Generated on: November 20, 2025 22:51:07) Tj
+T*
+ET
+endstream endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer << /Size 6 /Root 1 0 R >>
+startxref
+766
+%%EOF

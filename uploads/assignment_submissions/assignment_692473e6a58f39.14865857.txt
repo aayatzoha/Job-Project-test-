@@ -1,0 +1,15 @@
+MEDICAL RECORD
+==============
+
+Patient: user 1
+Health ID: CIT2025000002
+Doctor: Dr. Doctor 1
+Record Date: November 20, 2025
+Record Type: General
+
+Title: fever
+
+Description:
+treated
+
+Generated on: November 20, 2025 23:01:04

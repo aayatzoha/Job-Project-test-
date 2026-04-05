@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unexpected Response</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f7f7f7; color: #222; margin: 0; }
+        .container { max-width: 720px; margin: 10vh auto; background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        h1 { font-size: 20px; margin-top: 0; }
+        p { line-height: 1.6; }
+        .note { background: #fff3cd; color: #664d03; border: 1px solid #ffecb5; padding: 12px; border-radius: 6px; }
+        code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; }
+        .actions { margin-top: 16px; }
+        a.btn { display: inline-block; padding: 10px 14px; border-radius: 6px; text-decoration: none; border: 1px solid #007bff; color: #fff; background: #007bff; }
+        a.btn.secondary { border-color: #6c757d; background: #6c757d; }
+    </style>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+</head>
+<body>
+    <div class="container">
+        <h1>Unexpected response from server (not JSON)</h1>
+        <p class="note">Are you logged in as a company?</p>
+        <p>
+            This page appears when a request expected a JSON API response but received HTML instead, often due to a redirect to a login page or insufficient permissions.
+        </p>
+        <ul>
+            <li>Ensure you are logged in as a <strong>company</strong>.</li>
+            <li>Verify the request URL points to <code>/job/api/jobs/assignment.php</code>.</li>
+            <li>Check your browser’s DevTools → Network for status and content type.</li>
+        </ul>
+        <div class="actions">
+            <a class="btn" href="/job/pages/assignment-login-company.php">Login as Company</a>
+            <a class="btn secondary" href="/job/">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>

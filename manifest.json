@@ -1,0 +1,95 @@
+{
+  "name": "AI Job Recommendation System",
+  "short_name": "AI Jobs",
+  "description": "Intelligent job matching with AI-powered assessments and proctored testing",
+  "start_url": "/job/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2196F3",
+  "orientation": "portrait-primary",
+  "scope": "/job/",
+  "lang": "en",
+  "categories": ["business", "productivity", "education"],
+  "icons": [
+    {
+      "src": "assets/images/icon.svg",
+      "sizes": "72x72 96x96 128x128 144x144 152x152 192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/images/screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "AI Job Recommendation Dashboard"
+    },
+    {
+      "src": "assets/images/screenshot2.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile Job Search Interface"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Find Jobs",
+      "short_name": "Jobs",
+      "description": "Search for job opportunities",
+      "url": "/job/dashboard/job_seeker.php?action=search",
+      "icons": [
+        {
+          "src": "assets/images/shortcut-jobs.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Take Assessment",
+      "short_name": "Test",
+      "description": "Take AI-powered assessments",
+      "url": "/job/dashboard/job_seeker.php?action=assessments",
+      "icons": [
+        {
+          "src": "assets/images/shortcut-test.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Company Dashboard",
+      "short_name": "Company",
+      "description": "Manage job postings and candidates",
+      "url": "/job/dashboard/company.php",
+      "icons": [
+        {
+          "src": "assets/images/shortcut-company.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}
